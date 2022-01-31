@@ -10,7 +10,7 @@ public class EmployeeDao
 	
 	public void setJdbcTemplate(JdbcTemplate jdbcTemplate)
 	{
-	this.jdbcTemplate =  jdbcTemplate;	
+		this.jdbcTemplate =  jdbcTemplate;	
 	}
 	
 	public int saveEmployee(Employee e)

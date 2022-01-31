@@ -13,7 +13,7 @@ public class Test
 		ApplicationContext ctx =new  ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		EmployeeDao dao=(EmployeeDao)ctx.getBean("edao");
-		int status = dao.deleteEmployee(new Employee(102));
+		int status = dao.saveEmployee(new Employee(103,"jay",39300));
 		System.out.println(status);
 		
 	}
